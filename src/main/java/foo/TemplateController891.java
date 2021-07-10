@@ -10,7 +10,7 @@ public class TemplateController891 extends AbstractController {
 
     @Override
     public ResponseEntity<?> controllerMethod() {
-        return ResponseEntity.status(200).body("Hello Buba!1");
+        return ResponseEntity.status(200).body("{\"msg\": \"Hello Buba!1\"}");
     }
 
     @Override

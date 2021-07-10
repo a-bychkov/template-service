@@ -19,7 +19,7 @@ public class Constants {
             "\n" +
             "    @Override\n" +
             "    public ResponseEntity<?> controllerMethod() {\n" +
-            "        return ResponseEntity.status(200).body(\"Hello Buba!1\");\n" +
+            "        return ResponseEntity.status(200).body(\"{\\\"msg\\\": \\\"Hello Buba!1\\\"}\");\n" +
             "    }\n" +
             "\n" +
             "    @Override\n" +
